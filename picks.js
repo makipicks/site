@@ -9,7 +9,7 @@ const PICKS = [
     dev: 'Bajonero Noctambulo',
     appId: 4568220,
     steamSlug: 'Panchofobia',
-    from: '2026-10-14',
+    from: '2026-10-13',
     release: '2026-10-15',
     tags: ['Horror', 'Dark humor', 'Low-poly'],
     blurb: 'You just wanted a hot dog at 3 AM. Now you are face to face with a cult that worships them.',
