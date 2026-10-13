@@ -69,12 +69,6 @@
     list.append(card);
   });
 
-  // sample short: no autoplay for reduced motion
-  const sample = document.querySelector('.phone video');
-  if (sample && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    sample.removeAttribute('autoplay'); sample.pause(); sample.controls = true;
-  }
-
   // eyes follow the pointer (a little)
   const cat = document.querySelector('.cat');
   const pupils = document.querySelector('.cat .pupils');
