@@ -21,19 +21,28 @@
     return n;
   };
 
+  const PAGE = 12;
   const list = document.getElementById('pick-list');
-  const visible = PICKS.filter((p) => p.from <= today);
-  document.getElementById('picks-empty').hidden = visible.length > 0;
+  const empty = document.getElementById('picks-empty');
+  const noMatch = document.getElementById('picks-nomatch');
+  const more = document.getElementById('picks-more');
+  const search = document.getElementById('pick-search');
+  const count = document.getElementById('pick-count');
 
-  visible.forEach((p) => {
-    const card = el('article', 'card pick');
+  // accents and case don't matter when searching
+  const norm = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const visible = PICKS.filter((p) => p.from <= today)
+    .map((p) => ({ p, text: norm([p.name, p.dev, p.blurb, ...p.tags].join(' ')) }));
+
+  const card = (p) => {
+    const c = el('article', 'card pick');
 
     const img = el('img', 'pick-img');
     img.src = `img/games/${p.slug}.jpg`;
     img.alt = `${p.name} key art`;
     img.loading = 'lazy';
     img.width = 460; img.height = 215;
-    card.append(img);
+    c.append(img);
 
     const body = el('div', 'pick-body');
     const top = el('div', 'pick-top');
@@ -50,8 +59,16 @@
     body.append(el('p', 'pick-dev', `by ${p.dev}`));
     body.append(el('p', 'pick-blurb', p.blurb));
 
+    // tags double as quick searches
     const tags = el('ul', 'tags');
-    p.tags.forEach((t) => tags.append(el('li', null, t)));
+    p.tags.forEach((t) => {
+      const li = el('li');
+      const btn = el('button', 'tag', t);
+      btn.type = 'button';
+      btn.addEventListener('click', () => { search.value = t; shown = PAGE; render(); search.scrollIntoView({ block: 'center' }); });
+      li.append(btn);
+      tags.append(li);
+    });
     body.append(tags);
 
     const actions = el('div', 'pick-actions');
@@ -65,9 +82,30 @@
     }
     body.append(actions);
 
-    card.append(body);
-    list.append(card);
-  });
+    c.append(body);
+    return c;
+  };
+
+  let shown = PAGE;
+  const render = () => {
+    const q = norm(search.value.trim());
+    const words = q.split(/\s+/).filter(Boolean);
+    const hits = visible.filter((v) => words.every((w) => v.text.includes(w)));
+    list.replaceChildren(...hits.slice(0, shown).map((v) => card(v.p)));
+    empty.hidden = visible.length > 0;
+    noMatch.hidden = !(visible.length > 0 && hits.length === 0);
+    more.hidden = hits.length <= shown;
+    count.textContent = q ? `${hits.length} of ${visible.length} picks` : `${visible.length} picks`;
+    const url = new URL(location.href);
+    if (q) url.searchParams.set('q', search.value.trim()); else url.searchParams.delete('q');
+    history.replaceState(null, '', url);
+  };
+
+  search.value = new URLSearchParams(location.search).get('q') || '';
+  search.addEventListener('input', () => { shown = PAGE; render(); });
+  more.addEventListener('click', () => { shown += PAGE; render(); });
+  document.getElementById('pick-search-wrap').hidden = visible.length === 0;
+  render();
 
   // eyes follow the pointer (a little)
   const cat = document.querySelector('.cat');

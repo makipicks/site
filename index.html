@@ -86,9 +86,19 @@
       <svg class="paw-icon" aria-hidden="true"><use href="#paw"/></svg>
       <h2 id="picks-title">Latest picks</h2>
     </div>
-    <p class="section-intro">Every game Maki picked, newest first. Tap through to the Steam page and wishlist the ones you like. It really helps small devs.</p>
+    <p class="section-intro">Every game Maki picked, newest first. Search for one you saw in a short, or tap through to the Steam page and wishlist the ones you like. It really helps small devs.</p>
+    <div class="search" id="pick-search-wrap">
+      <label class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+        <span class="sr-only">Search picks</span>
+        <input id="pick-search" type="search" placeholder="Search by game, developer or tag" autocomplete="off" spellcheck="false">
+      </label>
+      <span class="search-count" id="pick-count" aria-live="polite"></span>
+    </div>
     <div class="picks" id="pick-list"></div>
     <p class="empty" id="picks-empty" hidden>Maki is still choosing. The first picks land very soon.</p>
+    <p class="empty" id="picks-nomatch" hidden>No picks match that yet. Try a genre like horror or cozy.</p>
+    <div class="more"><button class="pill" id="picks-more" type="button" hidden>Show more picks</button></div>
   </section>
 
   <section class="section-alt" id="devs" aria-labelledby="devs-title">
@@ -107,8 +117,8 @@
       </li>
       <li class="card step">
         <span class="step-no">2</span>
-        <h3>The files are yours</h3>
-        <p>You get every video file, with and without music, to post on your own accounts too.</p>
+        <h3>Share them anywhere</h3>
+        <p>Share the shorts on your own pages. Want the video files too, with and without music? Just ask.</p>
       </li>
       <li class="card step">
         <span class="step-no">3</span>

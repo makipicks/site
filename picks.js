@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'top_down_zombies',
+    name: 'Top Down Zombies',
+    dev: 'Hound Dog Games Studio',
+    appId: 2020130,
+    steamSlug: 'Top_Down_Zombies',
+    from: '2026-10-14',
+    release: null,
+    tags: ['Top-down shooter', 'Online co-op', 'Arcade'],
+    blurb: 'Endless swarms that get faster and deadlier every wave, until there is no space left. Solo or online co-op.',
+    short: '',
+  },
+  {
     slug: 'panchofobia',
     name: 'Panchofobia',
     dev: 'Bajonero Noctambulo',
