@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maki Picks - Indie games worth a look</title>
+  <meta name="description" content="Small indie games on Steam, shown in under a minute. Hidden gems and upcoming releases, hand-picked and credited to the devs.">
+  <meta property="og:title" content="Maki Picks">
+  <meta property="og:description" content="Indie games worth a look. Small games on Steam, shown in under a minute.">
+  <meta property="og:image" content="https://makipicks.com/img/og.png">
+  <meta property="og:url" content="https://makipicks.com/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#2EC4B6">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" href="fonts/fredoka-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="paw" viewBox="-290 -350 580 510">
+      <path d="M0,-110 C90,-110 190,20 170,90 C150,150 60,140 0,120 C-60,140 -150,150 -170,90 C-190,20 -90,-110 0,-110 Z"/>
+      <ellipse cx="-210" cy="-150" rx="62" ry="80" transform="rotate(-20 -210 -150)"/>
+      <ellipse cx="-80" cy="-250" rx="66" ry="86" transform="rotate(-6 -80 -250)"/>
+      <ellipse cx="80" cy="-250" rx="66" ry="86" transform="rotate(6 80 -250)"/>
+      <ellipse cx="210" cy="-150" rx="62" ry="80" transform="rotate(20 210 -150)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="hero">
+  <nav class="nav" aria-label="Main">
+    <a class="nav-logo" href="#top" aria-label="Maki Picks home">
+      <img src="img/avatar.png" alt="" width="40" height="40">
+      <span>Maki Picks</span>
+    </a>
+    <div class="nav-links">
+      <a href="#picks">Picks</a>
+      <a href="#devs">For devs</a>
+      <a href="#about">About</a>
+    </div>
+  </nav>
+
+  <div class="hero-inner" id="top">
+    <h1>Maki Picks</h1>
+    <p class="hero-lead">Indie games worth a look.</p>
+    <p class="hero-sub">Small games on Steam, shown in under a minute. Hand-picked, credited to the devs, always.</p>
+    <ul class="socials" aria-label="Maki Picks on social media">
+      <li><a class="pill" href="https://www.youtube.com/@makipicks" rel="me noopener" target="_blank">YouTube</a></li>
+      <li><a class="pill" href="https://www.instagram.com/makipicks" rel="me noopener" target="_blank">Instagram</a></li>
+      <li><a class="pill" href="https://www.tiktok.com/@maki_picks" rel="me noopener" target="_blank">TikTok</a></li>
+      <li><a class="pill" href="https://store.steampowered.com/curator/46577348" rel="me noopener" target="_blank">Steam Curator</a></li>
+    </ul>
+  </div>
+
+  <svg class="cat" viewBox="-470 -640 940 640" role="img" aria-label="Maki, a black cat, peeking up from the bottom of the page">
+    <g class="ear ear-l">
+      <path d="M-262,-280 L-290,-610 L-80,-390 Z" fill="#2E2230" stroke="#2E2230" stroke-width="40" stroke-linejoin="round"/>
+      <path d="M-240,-340 L-268,-530 L-140,-390 Z" fill="#FF9EB5"/>
+    </g>
+    <g class="ear ear-r">
+      <path d="M262,-280 L290,-610 L80,-390 Z" fill="#2E2230" stroke="#2E2230" stroke-width="40" stroke-linejoin="round"/>
+      <path d="M240,-340 L268,-530 L140,-390 Z" fill="#FF9EB5"/>
+    </g>
+    <ellipse cx="0" cy="0" rx="430" ry="400" fill="#2E2230"/>
+    <g class="eye">
+      <ellipse cx="-125" cy="-210" rx="58" ry="68" fill="#FFE066"/>
+      <ellipse cx="125" cy="-210" rx="58" ry="68" fill="#FFE066"/>
+      <g class="pupils">
+        <ellipse cx="-125" cy="-206" rx="22" ry="56" fill="#2E2230"/>
+        <ellipse cx="125" cy="-206" rx="22" ry="56" fill="#2E2230"/>
+        <circle cx="-109" cy="-236" r="13" fill="#fff"/>
+        <circle cx="141" cy="-236" r="13" fill="#fff"/>
+      </g>
+    </g>
+    <path d="M-22,-120 L22,-120 L0,-94 Z" fill="#FF9EB5"/>
+  </svg>
+</header>
+
+<main>
+  <section class="section" id="picks" aria-labelledby="picks-title">
+    <div class="section-head">
+      <svg class="paw-icon" aria-hidden="true"><use href="#paw"/></svg>
+      <h2 id="picks-title">Latest picks</h2>
+    </div>
+    <p class="section-intro">Every game Maki picked, newest first. Tap through to the Steam page and wishlist the ones you like. It really helps small devs.</p>
+    <div class="picks" id="pick-list"></div>
+    <p class="empty" id="picks-empty" hidden>Maki is still choosing. The first picks land very soon.</p>
+  </section>
+
+  <section class="section-alt" id="devs" aria-labelledby="devs-title">
+   <div class="section">
+    <div class="section-head">
+      <svg class="paw-icon" aria-hidden="true"><use href="#paw"/></svg>
+      <h2 id="devs-title">For developers</h2>
+    </div>
+    <p class="section-intro">If Maki picks your game, here is what happens. It's free.</p>
+    <ol class="steps">
+      <li class="card step">
+        <span class="step-no">1</span>
+        <h3>Three shorts, three weeks</h3>
+        <p>One short a week, each in a different style, posted on YouTube, Instagram and TikTok. Footage comes from your official Steam trailer and screenshots.</p>
+      </li>
+      <li class="card step">
+        <span class="step-no">2</span>
+        <h3>The files are yours</h3>
+        <p>You get every video file, with and without music, to post on your own accounts too.</p>
+      </li>
+      <li class="card step">
+        <span class="step-no">3</span>
+        <h3>A short report</h3>
+        <p>After the third week you get the numbers for each video: views and how many people stayed to watch.</p>
+      </li>
+    </ol>
+    <div class="card contact">
+      <p><strong>Want your game considered?</strong> Send the Steam link to <a href="mailto:hello@makipicks.com">hello@makipicks.com</a></p>
+      <p><strong>Featured and want it taken down?</strong> Send an email and it's removed within 24 hours, no questions asked.</p>
+      <p class="muted">Want more after the free series? There's a monthly package. Pricing will be listed here soon; ask by email in the meantime.</p>
+    </div>
+   </div>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="about card">
+      <img class="about-avatar" src="img/avatar.png" alt="Maki the cat, drawn as a black cat with yellow eyes" width="160" height="160" loading="lazy">
+      <div>
+        <h2 id="about-title">What is Maki Picks?</h2>
+        <p>Maki Picks shares small indie games from Steam in short videos: hidden gems, upcoming releases and the strange little experiments in between.</p>
+        <p>Every short credits the developer and points to the game's Steam page. Connected games and sponsored videos are always clearly labeled.</p>
+        <p>Named after Maki the cat.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <svg class="paw-icon" aria-hidden="true"><use href="#paw"/></svg>
+  <p><a href="mailto:hello@makipicks.com">hello@makipicks.com</a></p>
+  <p class="footer-links">
+    <a href="https://www.youtube.com/@makipicks" rel="noopener" target="_blank">YouTube</a>
+    <a href="https://www.instagram.com/makipicks" rel="noopener" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@maki_picks" rel="noopener" target="_blank">TikTok</a>
+    <a href="https://store.steampowered.com/curator/46577348" rel="noopener" target="_blank">Steam</a>
+  </p>
+  <p class="muted">Game images and footage belong to their developers. No trackers, no cookies.</p>
+  <p class="muted">&copy; 2026 Maki Picks</p>
+</footer>
+
+<script src="picks.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
