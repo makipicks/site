@@ -46,10 +46,6 @@
     const body = el('div', 'pick-body');
     const top = el('div', 'pick-top');
     top.append(el('span', 'badge', status(p)));
-    if (p.airs && p.airs > today) {
-      const [, m, d] = p.airs.split('-').map(Number);
-      top.append(el('span', 'badge badge-soon', `Short on ${MONTHS[m - 1]} ${d}`));
-    }
     if (p.own) {
       const b = el('span', 'badge badge-own', "Made by Maki Picks' creator");
       b.title = 'Full disclosure: this game is made by the creator of Maki Picks.';
