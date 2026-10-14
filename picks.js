@@ -1,8 +1,48 @@
-// Maki's picks. Newest first. A pick appears on the site from its `from` date (Week 1 upload day).
+// Maki's picks. Newest first. A pick appears from its `from` date (the day its shorts are made).
+// airs: 'YYYY-MM-DD' week 1 short date -> "Short on <date>" badge until then.
 // release: 'YYYY-MM-DD' -> "Out <date>" before, "Out now" after; null -> "Coming soon".
 // short: YouTube Shorts link once the week 1 short is live.
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
+  {
+    slug: 'kero_kero_cowboy',
+    name: 'Kero Kero Cowboy',
+    dev: 'MetagameMike',
+    appId: 3884910,
+    steamSlug: 'Kero_Kero_Cowboy',
+    from: '2026-10-14',
+    airs: '2026-10-17',
+    release: '2025-12-29',
+    tags: ['Retro platformer', 'Western', 'Game Boy Color'],
+    blurb: 'A frog cowboy with an extendable tongue and a six-shooter. A brand new western platformer made for the Game Boy Color.',
+    short: '',
+  },
+  {
+    slug: 'perpetuo',
+    name: 'Perpetuo',
+    dev: 'Nightwolf Games',
+    appId: 3445500,
+    steamSlug: 'Perpetuo',
+    from: '2026-10-14',
+    airs: '2026-10-16',
+    release: '2025-12-31',
+    tags: ['Psychological horror', 'Puzzle', 'First-person'],
+    blurb: 'An apartment caught in a loop. A missing sister. A ritual gone wrong. Every cycle changes the house.',
+    short: '',
+  },
+  {
+    slug: 'bluebie',
+    name: 'Bluebie VS The Army of Cyborgs',
+    dev: 'AMENBUSO',
+    appId: 3287200,
+    steamSlug: 'Bluebie_VS_The_Army_of_Cyborgs',
+    from: '2026-10-14',
+    airs: '2026-10-15',
+    release: '2025-12-31',
+    tags: ['3D platformer', 'Funny', 'Colorful'],
+    blurb: 'A farmer takes on an army of cyborgs with a stick, a slingshot, a crossbow and a pigeon launcher. Free the hidden prisoners.',
+    short: '',
+  },
   {
     slug: 'top_down_zombies',
     name: 'Top Down Zombies',
@@ -10,6 +50,7 @@ const PICKS = [
     appId: 2020130,
     steamSlug: 'Top_Down_Zombies',
     from: '2026-10-14',
+    airs: '2026-10-14',
     release: null,
     tags: ['Top-down shooter', 'Online co-op', 'Arcade'],
     blurb: 'Endless swarms that get faster and deadlier every wave, until there is no space left. Solo or online co-op.',
@@ -22,6 +63,7 @@ const PICKS = [
     appId: 4568220,
     steamSlug: 'Panchofobia',
     from: '2026-10-13',
+    airs: '2026-10-13',
     release: '2026-10-15',
     tags: ['Horror', 'Dark humor', 'Low-poly'],
     blurb: 'You just wanted a hot dog at 3 AM. Now you are face to face with a cult that worships them.',
