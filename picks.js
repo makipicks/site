@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'restless_dreams',
+    name: 'Restless Dreams',
+    dev: 'Room410',
+    appId: 4018210,
+    steamSlug: 'Restless_Dreams',
+    from: '2026-10-14',
+    release: '2026-01-09',
+    tags: ['Psychological horror', 'PS2 era', 'Short'],
+    blurb: 'Before you realize it, dreams have become a curse. A short first person horror game made as an homage to the PS2 era.',
+    short: '',
+  },
+  {
     slug: 'kinsfolk',
     name: 'Kinsfolk',
     dev: 'Vinko Kodzoman',
