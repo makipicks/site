@@ -4,8 +4,9 @@
   // ?today=YYYY-MM-DD previews the list on another day
   const today = new URLSearchParams(location.search).get('today') || new Date().toISOString().slice(0, 10);
 
+  // curator_clanid shows the Maki Picks review (and its short) on the store page
   const steamUrl = (p) =>
-    `https://store.steampowered.com/app/${p.appId}/${p.steamSlug}/?utm_source=makipicks&utm_medium=shorts&utm_campaign=${p.slug}`;
+    `https://store.steampowered.com/app/${p.appId}/${p.steamSlug}/?utm_source=makipicks&utm_medium=shorts&utm_campaign=${p.slug}&curator_clanid=46577348`;
 
   const status = (p) => {
     if (!p.release) return 'Coming soon';

@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'kinsfolk',
+    name: 'Kinsfolk',
+    dev: 'Vinko Kodzoman',
+    appId: 2876610,
+    steamSlug: 'Kinsfolk',
+    from: '2026-10-14',
+    release: '2026-01-08',
+    tags: ['Narrative', 'Walking sim', 'Short'],
+    blurb: "A short, atmospheric narrative adventure about fatherhood, memory, and healing. Relive a new father's past in about 40 minutes.",
+    short: '',
+  },
+  {
     slug: 'kero_kero_cowboy',
     name: 'Kero Kero Cowboy',
     dev: 'MetagameMike',
