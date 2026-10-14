@@ -11,7 +11,7 @@ const PICKS = [
     appId: 3884910,
     steamSlug: 'Kero_Kero_Cowboy',
     from: '2026-10-14',
-    airs: '2026-10-17',
+    airs: '2026-10-19',
     release: '2025-12-29',
     tags: ['Retro platformer', 'Western', 'Game Boy Color'],
     blurb: 'A frog cowboy with an extendable tongue and a six-shooter. A brand new western platformer made for the Game Boy Color.',
