@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'the_empty_eyes',
+    name: 'The Empty Eyes',
+    dev: '99 Grados Games',
+    appId: 4074770,
+    steamSlug: 'The_Empty_Eyes',
+    from: '2026-10-15',
+    release: '2026-01-15',
+    tags: ['Psychological horror', 'Detective', 'First person'],
+    blurb: 'A private detective searches for a missing lawyer in a house where every room seems to be watching you. It doesn\'t scream, it whispers.',
+    short: '',
+  },
+  {
     slug: 'restless_dreams',
     name: 'Restless Dreams',
     dev: 'Room410',
