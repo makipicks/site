@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'ch13_rest_stop',
+    name: 'CH13: Rest Stop',
+    dev: 'Yellow Smile',
+    appId: 3927170,
+    steamSlug: 'CH13_Rest_Stop',
+    from: '2026-10-16',
+    release: '2026-10-28',
+    tags: ['Psychological horror', 'Walking sim', 'Short'],
+    blurb: 'A sleepless new father, a closed main road and a narrow forest detour in early 2000s Poland. Will you find out what awaits at the end of the road?',
+    short: '',
+  },
+  {
     slug: 'crack',
     name: 'CRACK',
     dev: 'Rafoli',
