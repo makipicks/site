@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'crack',
+    name: 'CRACK',
+    dev: 'Rafoli',
+    appId: 4312190,
+    steamSlug: 'CRACK',
+    from: '2026-10-15',
+    release: '2026-10-26',
+    tags: ['Co-op', 'Incremental', 'Comedy'],
+    blurb: 'There is an egg. It is very big. A 1-4 player co-op adventure about cracking it open, upgrading your tools and finding out what\'s inside.',
+    short: '',
+  },
+  {
     slug: 'the_empty_eyes',
     name: 'The Empty Eyes',
     dev: '99 Grados Games',
