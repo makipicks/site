@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'carry_on_together',
+    name: 'Carry On Together',
+    dev: 'Butiq Games',
+    appId: 4776500,
+    steamSlug: 'Carry_On_Together',
+    from: '2026-10-21',
+    release: '2026-11-16',
+    tags: ['Online co-op', 'Physics', 'Comedy'],
+    blurb: "Run a tiny delivery company with up to 3 friends. Lift heavy furniture together, drive the truck across town and deliver everything in one piece... or don't.",
+    short: '',
+  },
+  {
     slug: 'derelikt',
     name: 'DERELIKT',
     dev: 'Visuwyg',
