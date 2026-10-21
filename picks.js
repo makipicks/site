@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'derelikt',
+    name: 'DERELIKT',
+    dev: 'Visuwyg',
+    appId: 3810510,
+    steamSlug: 'DERELIKT',
+    from: '2026-10-20',
+    release: '2026-11-13',
+    tags: ['Retro FPS', 'Survival horror', 'Sci-fi'],
+    blurb: "Old-school survival horror on a research station built into a derelict asteroid in Saturn's orbit. Its halls are dark, its systems are failing, and the survivors aren't telling the same story.",
+    short: '',
+  },
+  {
     slug: 'ch13_rest_stop',
     name: 'CH13: Rest Stop',
     dev: 'Yellow Smile',
