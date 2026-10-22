@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'metro_anomaly',
+    name: 'Metro Anomaly',
+    dev: 'KEXO',
+    appId: 4612650,
+    steamSlug: 'Metro_Anomaly',
+    from: '2026-10-22',
+    release: '2026-11-09',
+    tags: ['Psychological horror', 'Anomaly hunt', 'First-person'],
+    blurb: 'Watch the office clerks on the metro closely and find the one who is merely pretending to be human. You have only one bullet.',
+    short: '',
+  },
+  {
     slug: 'carry_on_together',
     name: 'Carry On Together',
     dev: 'Butiq Games',
