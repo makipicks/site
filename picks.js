@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'shock',
+    name: 'SHOCK',
+    dev: "Hero's Punch Productions",
+    appId: 3391130,
+    steamSlug: 'SHOCK',
+    from: '2026-10-23',
+    release: '2026-11-10',
+    tags: ['Survival horror', 'Psychological horror', 'Third-person'],
+    blurb: 'A disabled war veteran with only a wheelchair must hide, sneak and crawl into tight spaces to escape a cybernetic creature in an abandoned parking lot.',
+    short: '',
+  },
+  {
     slug: 'metro_anomaly',
     name: 'Metro Anomaly',
     dev: 'KEXO',
