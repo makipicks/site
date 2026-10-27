@@ -4,6 +4,30 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'blue_ridge_hunting',
+    name: 'Blue Ridge Hunting',
+    dev: 'Jade Meadows',
+    appId: 2434930,
+    steamSlug: 'Blue_Ridge_Hunting',
+    from: '2026-10-26',
+    release: '2026-10-26',
+    tags: ['Co-op horror', 'Cryptid hunting', 'First-person'],
+    blurb: 'A co-op horror game set in the Appalachian Mountains. Investigate, document and hunt cryptids based on real sightings and legends, and keep your voice down: the creatures are always listening.',
+    short: '',
+  },
+  {
+    slug: 'fearwoods',
+    name: 'Fearwoods',
+    dev: 'Fearwoods',
+    appId: 3296990,
+    steamSlug: 'Fearwoods',
+    from: '2026-10-26',
+    release: '2026-11-26',
+    tags: ['Survival horror', 'Online co-op', 'First-person'],
+    blurb: "A 4 player co-op survival horror game in a cursed forest where light and silence are your only weapons. Find the GPS fragments, uncover Aveline's story and evade a relentless demon.",
+    short: '',
+  },
+  {
     slug: 'shock',
     name: 'SHOCK',
     dev: "Hero's Punch Productions",
