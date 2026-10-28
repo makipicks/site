@@ -4,6 +4,30 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'sitter',
+    name: 'Sitter',
+    dev: 'Setone Games',
+    appId: 3751490,
+    steamSlug: 'Sitter',
+    from: '2026-10-28',
+    release: '2026-11-12',
+    tags: ['Psychological horror', 'First-person', 'Surreal'],
+    blurb: "A detective enters his murdered grandmother's sealed-off home, and the house has a life of its own. Walls shift, corridors twist back on themselves and time fractures.",
+    short: '',
+  },
+  {
+    slug: 'flea_madness',
+    name: 'Flea Madness',
+    dev: 'Missset',
+    appId: 1025560,
+    steamSlug: 'Flea_Madness',
+    from: '2026-10-28',
+    release: '2026-11-12',
+    tags: ['Team shooter', 'Third-person', 'Funny'],
+    blurb: 'A chaotic shooter where armed fleas fight over objectives with guns, bite attacks and strange insects you can ride straight into battle.',
+    short: '',
+  },
+  {
     slug: 'blue_ridge_hunting',
     name: 'Blue Ridge Hunting',
     dev: 'Jade Meadows',
