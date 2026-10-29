@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'alyssa',
+    name: 'ALYSSA',
+    dev: 'Broken Arrow Games',
+    appId: 2420580,
+    steamSlug: 'ALYSSA',
+    from: '2026-10-28',
+    release: '2026-10-22',
+    tags: ['Psychological horror', 'First-person', 'Stealth'],
+    blurb: 'Kidnapped and trapped in an isolated mansion with three mysterious captors. Sneak, hide and search every room while some things watch from the shadows and some react to light.',
+    short: '',
+  },
+  {
     slug: 'sitter',
     name: 'Sitter',
     dev: 'Setone Games',
