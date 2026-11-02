@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'wizzy_the_wood',
+    name: 'Wizzy the Wood',
+    dev: 'Lukasz Cnota',
+    appId: 3837450,
+    steamSlug: 'Wizzy_the_Wood',
+    from: '2026-11-02',
+    release: '2026-11-12',
+    tags: ['3D platformer', 'Cozy', 'Adventure'],
+    blurb: 'A little wooden hero sets out to reclaim the stolen Stone of Eternity and save his tribe. A relaxed 3D platformer full of secrets, puzzles and magic, inspired by Croc and Spyro.',
+    short: '',
+  },
+  {
     slug: 'alyssa',
     name: 'ALYSSA',
     dev: 'Broken Arrow Games',
