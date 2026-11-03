@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'mourning_tide',
+    name: 'Mourning Tide',
+    dev: 'Liquid Squid',
+    appId: 2799050,
+    steamSlug: 'Mourning_Tide',
+    from: '2026-11-03',
+    release: '2026-12-11',
+    tags: ['Fishing', 'Horror', 'PSX'],
+    blurb: 'A guilt-ridden fisherman sails into forbidden waters. With every catch, the echoes of his life rise to the surface, along with increasingly horrifying creatures.',
+    short: '',
+  },
+  {
     slug: 'sombras',
     name: 'SOMBRAS: negative frames',
     dev: 'Maboroshi Artworks',
