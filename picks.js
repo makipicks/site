@@ -4,6 +4,30 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'sombras',
+    name: 'SOMBRAS: negative frames',
+    dev: 'Maboroshi Artworks',
+    appId: 4553370,
+    steamSlug: 'SOMBRAS_negative_frames',
+    from: '2026-11-03',
+    release: '2026-12-03',
+    tags: ['Narrative', 'Photography', 'Light horror'],
+    blurb: 'A photography student is spirited away into a dark mirror of her 2000s Japanese town. Take pictures of unusual sights, develop your film roll and reunite every fragment of her broken self.',
+    short: '',
+  },
+  {
+    slug: 'no_visitors_allowed',
+    name: 'No Visitors Allowed',
+    dev: 'Second Guess',
+    appId: 4811080,
+    steamSlug: 'No_Visitors_Allowed',
+    from: '2026-11-03',
+    release: '2026-11-18',
+    tags: ['Psychological horror', 'Anomaly', 'Walking sim'],
+    blurb: 'A post-Soviet-era abandoned hospital that loops. If everything seems normal, keep moving to the next floor. If you see an anomaly, you must go back.',
+    short: '',
+  },
+  {
     slug: 'wizzy_the_wood',
     name: 'Wizzy the Wood',
     dev: 'Lukasz Cnota',
