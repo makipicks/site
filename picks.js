@@ -4,6 +4,30 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'still_with_me',
+    name: 'Still With Me',
+    dev: 'merius',
+    appId: 4670120,
+    steamSlug: 'Still_With_Me',
+    from: '2026-11-06',
+    release: '2026-12-01',
+    tags: ['Psychological horror', 'Atmospheric', 'Walking sim'],
+    blurb: 'A short psychological horror experience about returning to a place that used to be home, now filled with unsettling events and signs of a presence that knows you far too well. Observation based gameplay.',
+    short: '',
+  },
+  {
+    slug: 'arctic_grave',
+    name: 'Arctic Grave',
+    dev: 'Palerite',
+    appId: 4258680,
+    steamSlug: 'Arctic_Grave',
+    from: '2026-11-06',
+    release: '2026-11-18',
+    tags: ['Psychological horror', 'Atmospheric', 'Puzzle'],
+    blurb: 'Communication with the crew of a remote arctic cargo outpost was lost. As the investigator, write a report on each of them, find items that unlock new paths and descend deeper. Something else might be here with you.',
+    short: '',
+  },
+  {
     slug: 'mourning_tide',
     name: 'Mourning Tide',
     dev: 'Liquid Squid',
