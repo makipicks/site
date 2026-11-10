@@ -4,6 +4,18 @@
 // own: true for games made by Maki Picks' creator (full disclosure), friend: true for a friend's.
 const PICKS = [
   {
+    slug: 'patient_16',
+    name: 'Plura Ingenia: Patient 16',
+    dev: 'Oblique Interactive',
+    appId: 4335990,
+    steamSlug: 'Plura_Ingenia_Patient_16',
+    from: '2026-11-10',
+    release: '2026-12-03',
+    tags: ['Psychological horror', 'First-person', 'Episodic'],
+    blurb: 'The first episode of a series of short psychological horror games. Answer personality questions, choose one door and survive an evaluation that adapts to how you think and behave. Your choices carry over to the next episodes.',
+    short: '',
+  },
+  {
     slug: 'still_with_me',
     name: 'Still With Me',
     dev: 'merius',
